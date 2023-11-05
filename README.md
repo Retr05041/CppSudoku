@@ -1,4 +1,5 @@
-# C++, Ultralight.ht, tailwindcss Template repo
+# Sudoku++
+A simplistic sudoku game written in C++ using Ultralight and TailwindCSS for the UI.
 
 ## To Intsall/Setup
 ```

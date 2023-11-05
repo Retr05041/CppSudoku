@@ -54,11 +54,11 @@ elif [ "$1" == "rebuild" ]; then
     rebuild
 elif [ "$1" == "run" ]; then
     build
-    ./build/MyApp
+    ./build/Sudoku++
 elif [ "$1" == "setup" ]; then
     Setup
 elif [ "$1" == "watch" ]; then 
     TailwindWatch $2
 else
-    echo "Usage: ./besmart.sh [build|run]"
+    echo "Usage: ./besmart.sh [build|rebuild|run|setup|watch]"
 fi

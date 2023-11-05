@@ -3,14 +3,14 @@
 
 using namespace ultralight;
 
-class MyApp : public AppListener,
+class MyWindow : public AppListener,
               public WindowListener,
               public LoadListener,
               public ViewListener {
 public:
-  MyApp();
+  MyWindow();
 
-  virtual ~MyApp();
+  virtual ~MyWindow();
 
   // Start the run loop.
   virtual void Run();

@@ -1,7 +1,7 @@
-#include "MyApp.h"
+#include "UI/MyWindow.h"
 
 int main() {
-  MyApp app;
+  MyWindow app;
   app.Run();
 
   return 0;
